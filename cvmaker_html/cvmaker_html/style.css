@@ -1,0 +1,84 @@
+ /* -------------------Formatting of cv */
+ .cv{
+
+    border: 1px solid black;
+    border-radius: 10px;
+    /* height: 500px; */
+    /* display: none; */
+}
+.rw{
+    /* width: 890px; */
+    text-align: center;
+    /* background-color: black; */
+    border: 1px solid black;
+    
+    padding: 50px;
+    height: 190px;
+    margin: 10px 0;
+    border-radius: 20px;
+    color: black;
+
+}
+
+.left{
+    border-right: 1px solid rgb(0, 0, 0);
+}
+.left h2{
+    background-color: white;
+    color: black;
+    padding: 9px;
+    padding-left: 45px;
+    border: 1px solid black;
+    /* border-top-right-radius: 20px; */
+    /* border-bottom-right-radius: 20px; */
+    /* width: 350px; */
+}
+.left h5, p{
+    padding-left: 45px;
+    /* width: 200px; */
+    /* height: 200px; */
+    /* border: 1px solid black; */
+}
+.right h2 {
+    background-color:white;
+    color: black;
+    padding: 8px;
+    padding-left: 35px;
+    border-top-left-radius: 20px;
+    border: 1px solid black;
+    /* border-bottom-left-radius: 20px; */
+}
+
+.abc{
+    height: 100vh;
+    overflow-y: scroll;
+    position: fixed;
+    z-index: 20;
+}
+.z{
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+    /* direction: ltr; */
+    /* align-items:center ; */
+}
+.z button{
+    color: white;
+    background-color: black;
+    outline: none;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.z button:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+.hide{
+    display: none;
+}
+/* .col-md-10{
+    position: static;
+} */
+
